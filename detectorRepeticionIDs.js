@@ -37,34 +37,3 @@ comparadorArreglos(giftIds)
 comparadorArreglos(giftIds2)
 comparadorArreglos(giftIds3)
    //length.giftIds2, length.giftIds3
-
-
-
-
-
-   function primerNumeroRepetido(lista) {
-    let numerosVistos = new Set();
-    
-    for (let i = 0; i < lista.length; i++) {
-      if (numerosVistos.has(lista[i])) {
-        return lista[i];
-      } else {
-        numerosVistos.add(lista[i]);
-      }
-    }
-    
-    return -1;
-  }
-  
-  console.log(primerNumeroRepetido(giftIds))
-  console.log(primerNumeroRepetido(giftIds2))
-  console.log(primerNumeroRepetido(giftIds3))
-
-
-/*
-
-  // Ejemplo de uso:
-  let juguetes = [1, 2, 3, 4, 2, 5, 6, 1];
-  let primerRepetido = primerNumeroRepetido(juguetes);
-  console.log("El primer número repetido es:", primerRepetido);
-  */
